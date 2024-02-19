@@ -1,0 +1,97 @@
+.active,a{
+    text-decoration: none;
+}
+h1,a{
+    color: rgba(43, 12, 245, 0.829);
+}
+h6{
+    color: grey;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 10px;
+    width: 5px;
+    height: 3px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5%;
+    margin-bottom: auto;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-whatsapp {
+    background: #1cc72a;
+    color: white;
+  }
+  .fa-google {
+    background: red;
+    color: white;
+  }
+
+  /* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  } */
+
+  button{
+ float: right;
+ background: grey;
+ border: none;
+ height:30px;
+ font-weight: 500px;
+ cursor: pointer;
+ }
+  .database img{
+    margin-left:2rem;
+    margin-right: 2rem;
+  }
+.database1 img{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.database2 img{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.database3 img{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.database4 img{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.database5 img{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.database6 img{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.database7 img{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}

@@ -1,0 +1,69 @@
+.data-y1-m1 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .header {
+    font-weight: bold;
+    background: #333;
+    color: #fff;
+  }
+  
+  .cell {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .cell:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .row {
+      display: block; 
+      border: none;
+    }
+  
+    .header {
+      display: none;
+    }
+  
+    .cell {
+      display: inline-block;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #ddd;
+      padding: 8px 0;
+    }
+  
+    .cell:nth-child(even) {
+      background-color: transparent;
+    }
+  }

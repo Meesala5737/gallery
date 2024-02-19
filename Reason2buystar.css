@@ -1,0 +1,79 @@
+*{
+    margin: 0.6rem;
+    padding: 0.1rem;
+}
+.Bimage{
+    display: flow-root;
+    position: relative;
+    text-align: center;
+   
+}
+.text{
+    position: absolute;
+    width: 10rem;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+    
+}
+.desctiption{
+    position: absolute;
+    width: 10rem;
+    top: 45%;
+    left: 50%;
+    transform: translate(-60%, -5%);
+    color: white;
+    font-size: small;
+}
+
+
+.Wimages{
+    display: flow-root;
+    position: relative;
+    text-align: center;
+}
+.wtext{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+}
+.wdesctiption{
+    position: absolute;
+    
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: white;
+    font-size: small;
+}
+
+
+.Cimage{
+    display: flow-root;
+    position: relative;
+    text-align: center;
+}
+.ctext{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+}
+.cdesctiption{
+    position: absolute;
+    
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: white;
+    font-size: small;
+}
+
+
