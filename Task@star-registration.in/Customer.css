@@ -1,0 +1,28 @@
+*{
+    margin: 1rem;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+hr.solid {
+    border-top: 1px solid #bbb;
+  }
+  
+.row
+{
+    display: block;
+    justify-content:space-between;
+}
+.column{
+    
+    flex-direction: row;
+    display: flex;
+    height: 300px;
+    float: left;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+  
+  
+  
