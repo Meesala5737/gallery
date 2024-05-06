@@ -3,12 +3,14 @@
     padding: 0.1rem;
 }
 .Bimage{
-    display: flow-root;
+    /* display: flow-root; */
     position: relative;
     text-align: center;
+    float: left;
+    
    
 }
-.text{
+.btext{
     position: absolute;
     width: 10rem;
     top: 40%;
@@ -16,64 +18,181 @@
     transform: translate(-50%, -50%);
     color: white;
     font-size: x-large;
-    
 }
-.desctiption{
+.bdesctiption{
     position: absolute;
-    width: 10rem;
-    top: 45%;
-    left: 50%;
-    transform: translate(-60%, -5%);
+    top: 47%;
+    left: 20%;
+    /* transform: translate(-60%, -15%); */
+    
     color: white;
     font-size: small;
+    text-indent: -40px;
 }
 
 
-.Wimages{
-    display: flow-root;
+.Wimage{
+    /* display: flow-root; */
     position: relative;
     text-align: center;
+    float: left;
 }
 .wtext{
     position: absolute;
     top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 10%;
+    /* transform: translate(-60%, -60%); */
     color: white;
     font-size: x-large;
 }
 .wdesctiption{
     position: absolute;
-    
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -20%);
+    top: 50%;
+    left: 17%;
+    /* transform: translate(-30%, -50%); */
     color: white;
     font-size: small;
+    text-indent: -15px;
 }
 
 
 .Cimage{
-    display: flow-root;
     position: relative;
     text-align: center;
+    float: left;
+    
 }
 .ctext{
     position: absolute;
-    top: 35%;
-    left: 50%;
+    top: 40%;
+    left: 45%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: x-large;
 }
 .cdesctiption{
     position: absolute;
-    
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -20%);
+    top: 47%;
+    left: 35%;
+    /* transform: translate(-40%, -40%); */
     color: white;
     font-size: small;
+    text-indent: -58px;
+}
+
+.Vimage{
+    display: flow-root;
+    position: relative;
+    text-align: center;
+    float: left;
+}
+.vtext{
+    position: absolute;
+    top: 37%;
+    left: 5%;
+    transform: translate(-15%, -30%);
+    color: white;
+    font-size: x-large;
+    text-indent: 90px;
+}
+.vdesctiption{
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    /* transform: translate(-15%, -30%); */
+    color: white;
+    font-size: small;
+    text-indent: 50px;
+}
+.Mimage{
+    position: relative;
+    text-align: center;
+    float: left;
+}
+.mtext{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+}
+.mdesctiption{
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    /* transform: translate(-30%, -25%); */
+    color: white;
+    font-size: small;
+    text-indent: 1%;
+}
+.Aimage{
+    position: relative;
+    text-align: center;
+    float: left;
+}
+.atext{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+    
+}
+.adesctiption{
+    position: absolute;
+    top: 48%;
+    left: 30%;
+    /* transform: translate(-50%, -20%); */
+    color: white;
+    font-size: small;
+    text-indent: -30px;
+}
+
+
+
+.Bimage:hover{
+    cursor: pointer;
+    transform: scale(1.0);
+    box-shadow: 2px 2px 2px,-2px -2px 2px;
+    background-color: rgba(128, 128, 128, 0.568);
+    color:rgba(128, 128, 128, 0.568);
+} 
+.Wimage:hover{
+    cursor: pointer;
+    transform: scale(1.0);
+    box-shadow: 2px 2px 10px,-2px -2px 10px;
+    background-color: rgba(128, 128, 128, 0.568);
+    color:rgba(128, 128, 128, 0.568);
+}
+.Cimage:hover{
+    cursor: pointer;
+    transform: scale(1.0);
+    box-shadow: 2px 2px 10px,-2px -2px 10px;
+    background-color: rgba(128, 128, 128, 0.568);
+    color:rgba(128, 128, 128, 0.568);  
+}
+.Vimage:hover{
+    cursor: pointer;
+    transform: scale(1.0);
+    box-shadow: 2px 2px 10px,-2px -2px 10px;
+    background-color: rgba(128, 128, 128, 0.568);
+    color:rgba(128, 128, 128, 0.568);  
+}
+.Mimage:hover{
+    cursor: pointer;
+    transform: scale(1.0);
+    box-shadow: 2px 2px 10px,-2px -2px 10px;
+    background-color: rgba(128, 128, 128, 0.568);
+    color:rgba(128, 128, 128, 0.568);  
+}
+.Aimage:hover{
+    cursor: pointer;
+    transform: scale(1.0);
+    box-shadow: 2px 2px 10px,-2px -2px 10px;
+    background-color: rgba(128, 128, 128, 0.568);
+    color:rgba(128, 128, 128, 0.568);  
 }
 
 
